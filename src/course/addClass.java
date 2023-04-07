@@ -1,11 +1,10 @@
 package course;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class AddClass {
+public class addClass {
     public static void main(String[] args) throws IOException {
         BufferedReader br = null;
         try {

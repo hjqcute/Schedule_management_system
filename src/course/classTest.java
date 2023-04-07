@@ -35,7 +35,7 @@ public class classTest extends HttpServlet {
         }
     }
 
-    /*
+    /**
         queryClass
         功能：查询课程信息
     */
@@ -75,7 +75,7 @@ public class classTest extends HttpServlet {
         }
     }
 
-    /*
+    /**
         uodateClass
         功能：修改课程信息
     */
@@ -110,7 +110,7 @@ public class classTest extends HttpServlet {
         }
     }
 
-    /*
+    /**
         delete
         Class功能：删除课程
     */
@@ -128,7 +128,7 @@ public class classTest extends HttpServlet {
         }
     }
 
-    /*
+    /**
         addClass
         功能：添加课程
     */
@@ -181,7 +181,7 @@ public class classTest extends HttpServlet {
         System.out.println("课程信息添加成功");
     }
 
-    /*
+    /**
         contains
         功能：检测id是否唯一
     */
@@ -189,7 +189,7 @@ public class classTest extends HttpServlet {
         return getIndex(list, newId) >= 0;
     }
 
-    /*
+    /**
         getIndex
         功能：通过id获得课程索引
     */
